@@ -72,7 +72,7 @@ const Header = () => {
           );
         })}
         <a
-          href="https://rive.google.com/uc?export=download&id=1imw_cfsmxbmX6YtZXOAszb3hm5XZUXp2"
+          href="https://drive.google.com/uc?export=download&id=1imw_cfsmxbmX6YtZXOAszb3hm5XZUXp2"
           download="Sumanth_S_Resume.pdf"
           aria-label="download sumanth s resume"
           className="resume"
