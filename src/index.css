@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Rubik";
+  src: url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap")
+    format("ttf");
+  font-weight: normal; /* Adjust font weight if needed */
+  font-style: normal; /* Adjust font style if needed */
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+body {
+  overflow-x: hidden;
+  width: 100%;
+
+  /* font-weight: 500; */
+  /* Variables */
+  --commentColor: #d2d3d4;
+  --primary: #03a9f4;
+  --mainBack: rgb(22, 28, 36);
+  --secondary: #015a83;
+  --AboutListBG: #00000029;
+  --AboutListItemsBG: #00000020;
+
+  --blue-primary: #03a9f4;
+  --green-primary: rgb(0, 171, 85);
+  --orange-primary: rgb(243, 139, 21);
+  --red-primary: #a04747;
+
+  font-style: normal;
+  background-color: var(--mainBack);
+}
+#MainContainer {
+  --primary: #03a9f4;
+  --secondary: #015a83;
+}
+
+#MainContainer.green {
+  --primary: rgb(0, 171, 85);
+  --secondary: rgb(0, 123, 85);
+}
+#MainContainer.orange {
+  --primary: rgb(243, 139, 21);
+  --secondary: rgb(255, 94, 57);
+}
